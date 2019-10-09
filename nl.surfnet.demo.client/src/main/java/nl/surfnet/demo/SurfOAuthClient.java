@@ -529,6 +529,7 @@ public class SurfOAuthClient extends AbstractKeyManager {
                         tokenInfo.setValidityPeriod(expiryTime - currentTime);
                         // Considering Current Time as the issued time.
                         tokenInfo.setIssuedTime(currentTime);
+                        tokenInfo.setEndUserName(SurfClientConstants.END_USER_NAME);
                         JSONArray scopesArray = (JSONArray) valueMap.get("scopes");
 
                         if (scopesArray != null && !scopesArray.isEmpty()) {
