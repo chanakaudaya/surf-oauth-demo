@@ -45,4 +45,5 @@ public final class SurfClientConstants {
     public static final String INTROSPECTION_CK = "ConsumerKey";
     public static final String INTROSPECTION_CS = "ConsumerSecret";
     public static final String TOKEN_ENDPOINT = "TokenEndpoint";
+    public static final String END_USER_NAME = "username";
 }
